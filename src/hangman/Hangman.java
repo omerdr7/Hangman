@@ -157,6 +157,16 @@ public class Hangman {
         mainMenu();
     }
 
+    public static void showScores() {
+        System.out.println("Score=" + userPoints);
+        Collections.sort(scores);
+        for (int j : scores) {
+            System.out.println(scores);
+        }
+        //this case list the scores of gamer and print them.
+        mainMenu();
+    }
+
     public static void main(String[] args) {
         mainMenu();
     }
